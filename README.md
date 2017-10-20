@@ -12,8 +12,8 @@
 # Roboter 1(LINK)
 Motoren 
 -------
-    M0:
-    M1:
+    M0: Rad Links
+    M1: Rad Rechts
     M2:
     M3:
 Servos 
@@ -26,3 +26,6 @@ Sensoren
 -------
     AS0:
     DS0:
+Programm
+--------
+    Gradeaus Fahren
