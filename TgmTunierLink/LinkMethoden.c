@@ -1,29 +1,29 @@
 int gerade(int sec){
 	motor(0,100);
 	motor(1,100);
-	wait_for_milliseconds(sec);
+	msleep(sec);
 }
 
 int zurueck(int sec){
 	motor(0,-100);
 	motor(1,-100);
-	wait_for_milliseconds(sec);
+	msleep(sec);
 }
 
 int rechts(int sec){
 	motor(0,100);
 	motor(1,-100);
-	wait_for_milliseconds(sec);
+	msleep(sec);
 }
 
 int links(int sec){
 	motor(0,-100);
 	motor(1,100);
-	wait_for_milliseconds(sec);
+	msleep(sec);
 }
 
 int umdrehen(){
 	motor(0,-100);
 	motor(1,100);
-	wait_for_milliseconds(4);
+	msleep(4);
 }
