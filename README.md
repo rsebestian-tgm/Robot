@@ -1,7 +1,13 @@
 # Robot
 
 # Team
-    Namen
+    Raphael Schlager
+    Florian Ritter
+    David Zeilinger
+    Manuel Stocker
+    Rene Dorje Sebestian
+    Fridolin Ulbel
+    George Felber
     
 # Roboter 1(LINK)
 Motoren 
