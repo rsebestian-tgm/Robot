@@ -7,6 +7,7 @@
     Manuel Stocker
     Rene Dorje Sebestian
     Fridolin Ulbel
+	Birgit Mayer
     George Felber
     
 # Roboter 1(LINK)
