@@ -1,13 +1,14 @@
 # Robot
 
 # Team
-    Raphael Schlager
+    Raphael Schlager(Mädchen Nr3)
     Florian Ritter
     David Zeilinger
     Manuel Stocker
     Rene Dorje Sebestian
     Fridolin Ulbel
     George Felber
+	*Birgit Mayer*
     
 # Roboter 1(LINK)
 Motoren 
