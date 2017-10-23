@@ -1,29 +1,63 @@
-int gerade(int sec){
+
+void gerade(int sec){ 		//getestet und funktioniert
 	motor(0,100);
 	motor(1,100);
 	msleep(sec);
 }
 
-int zurueck(int sec){
+void zurueck(int sec){		//getestet und funktioniert
 	motor(0,-100);
 	motor(1,-100);
 	msleep(sec);
 }
 
-int rechts(int sec){
+void rechts(int sec){		//getestet und funktioniert
 	motor(0,100);
 	motor(1,-100);
 	msleep(sec);
 }
 
-int links(int sec){
+void links(int sec){		//getestet und funktioniert
 	motor(0,-100);
 	motor(1,100);
 	msleep(sec);
 }
 
-int umdrehen(){
+void umdrehen(){			//getestet und funktioniert
 	motor(0,-100);
 	motor(1,100);
 	msleep(4);
+}
+
+void nachOben(){			//nicht getestet
+	/**
+	while(!Link oben){			Wie machen, dass der Link weiﬂ
+		msleep(1);				ob er oben ist?
+		while(sensor rechts = schwarz){
+			motor(0,90);
+			motor(1,100);
+			msleep(1);
+		}
+		while(sensor links = schwarz){
+			motor(0,100);
+			motor(1,90);
+			msleep(1);
+		}
+	}*/
+}	
+
+void zumLPlanter(){			//nicht getestet
+	while(!digital(0) == 1){
+		while(analog(1) < 0){		//Wert f¸r schwarze Linie herausfinden
+			motor(0,90);
+			motor(1,100);
+			msleep(1);
+		}
+		while(analog(0) < 0){		//Wert f¸r schwarze Linie herausfinden
+			motor(0,100);
+			motor(1,90);
+			msleep(1);
+		}
+	msleep(1);
+	}
 }
