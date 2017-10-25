@@ -1,4 +1,4 @@
-# Robot
+﻿# Robot
 
 # Team
     Raphael Schlager(Mädchen Nr3)
@@ -7,9 +7,8 @@
     Manuel Stocker
     Rene Dorje Sebestian
     Fridolin Ulbel
-	Birgit Mayer
+    Birgit Mayer
     George Felber
-	*Birgit Mayer*
     
 # Roboter 1(LINK)
 Motoren 
