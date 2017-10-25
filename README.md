@@ -26,7 +26,7 @@ Servos
 Sensoren
 -------
     AS0:
-    DS0:
+    DS8:
+
 Programm
 --------
-    Gradeaus Fahren
