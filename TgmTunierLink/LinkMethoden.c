@@ -26,7 +26,7 @@ void links(int sec){		//getestet und funktioniert
 void umdrehen(){			//getestet und funktioniert
 	motor(0,-100);
 	motor(1,100);
-	msleep(4);
+	msleep(4000);
 }
 
 void nachOben(){			//nicht getestet
@@ -47,7 +47,7 @@ void nachOben(){			//nicht getestet
 }	
 
 void zumLPlanter(){			//nicht getestet
-	while(!digital(0) == 1){
+	while(/*Link nicht bei Planter*/1){
 		while(analog(1) < 0){		//Wert für schwarze Linie herausfinden
 			motor(0,90);
 			motor(1,100);

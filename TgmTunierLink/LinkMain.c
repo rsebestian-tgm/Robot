@@ -1,7 +1,4 @@
 int main(){
-	wait_for_light(0); 
-	shut_down_in(119);
 	
-	nachOben();
-	zumLPlanter();
+	wait_for_light(1);
 }
