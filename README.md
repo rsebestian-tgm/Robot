@@ -25,7 +25,10 @@ Servos
     S3:
 Sensoren
 -------
-    AS0:
+    AS0:Licht
+    AS1:Entfernung
+    AS2:Schwarz/Weiß Rechts
+    AS3:Schwarz/Weiß Links 
     DS8:
 
 Programm

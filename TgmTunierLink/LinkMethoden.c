@@ -1,10 +1,10 @@
 void folgen(){
-	while(analog(0) > 800){
+	while(analog(2) > 800){
 		motor(0,90);
 		motor(1,100);
 		msleep(1);
 	}
-	while(analog(1) > 800){
+	while(analog(3) > 800){
 		motor(0,100);
 		motor(1,90);
 		msleep(1);
